@@ -1,0 +1,169 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  ,
+  "geolookup": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"country_name":"Spain",
+		"state":"A",
+		"city":"Gran Alacant",
+		"tz_short":"CET",
+		"tz_long":"Europe/Madrid",
+		"lat":"38.22000122",
+		"lon":"-0.51999998",
+		"zip":"00000",
+		"magic":"58",
+		"wmo":"08360",
+		"l":"/q/zmw:00000.58.08360",
+		"requesturl":"global/stations/08360.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/08360.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Alicante / El Altet", "state":"", "country":"Spain", "icao":"LEAL", "lat":"38.28333282", "lon":"-0.55000001" }
+		,{ "city":"Alicante", "state":"", "country":"ES", "icao":"LEAL", "lat":"38.27999878", "lon":"-0.55000001" }
+		,{ "city":"Murcia Airport", "state":"", "country":"ES", "icao":"LELC", "lat":"37.77999878", "lon":"-0.80000001" }
+		,{ "city":"Murcia", "state":"", "country":"SP", "icao":"LERI", "lat":"37.95000076", "lon":"-1.23000002" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"GranAlacant",
+		"city":"Gran Alacant",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"id":"ICOMUNID217",
+		"lat":38.225693,
+		"lon":-0.521782,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"",
+		"city":"Santa Pola",
+		"state":"Comunidad Valenciana",
+		"country":"ES",
+		"id":"IALICANT2",
+		"lat":38.228943,
+		"lon":-0.525793,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Babel",
+		"city":"Alicante",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"id":"ICOMUNID207",
+		"lat":38.338150,
+		"lon":-0.506416,
+		"distance_km":13,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Atzavares Alt",
+		"city":"Elche",
+		"state":"VALENCIAN COMMUNITY",
+		"country":"ES",
+		"id":"IVALENCI63",
+		"lat":38.256992,
+		"lon":-0.667022,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"La Marina, Spain",
+		"city":"La Marina",
+		"state":"VALENCIAN COMMUNITY",
+		"country":"ES",
+		"id":"IVALENCI166",
+		"lat":38.156467,
+		"lon":-0.656862,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Nuevo Altabix",
+		"city":"Elche",
+		"state":"",
+		"country":"ES",
+		"id":"IELCHE5",
+		"lat":38.277885,
+		"lon":-0.671273,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"ELCHE",
+		"city":"ELCHE",
+		"state":"ALICANTE",
+		"country":"ES",
+		"id":"IALICANT19",
+		"lat":38.252399,
+		"lon":-0.702900,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"S. Grossa (C. I. Jesuitas)",
+		"city":"Alacant",
+		"state":"L\u0027ALACANTI",
+		"country":"ES",
+		"id":"IALACANT3",
+		"lat":38.361111,
+		"lon":-0.464444,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Elche-Algor√≥s",
+		"city":"Elche",
+		"state":"",
+		"country":"ES",
+		"id":"IELCHE9",
+		"lat":38.244576,
+		"lon":-0.706520,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Rabassa",
+		"city":"Alacant",
+		"state":"L\u0027ALACANTÌ",
+		"country":"ES",
+		"id":"ILALACAN3",
+		"lat":38.372799,
+		"lon":-0.499062,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"CABO DE LAS HUERTAS-PLAYA DE SAN JUAN",
+		"city":"Frank Espinos",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"id":"ICOMUNID328",
+		"lat":38.358051,
+		"lon":-0.420430,
+		"distance_km":17,
+		"distance_mi":10
+		}
+		]
+		}
+		}
+	}
+		,"query_zone": "999",
+	"alerts": [
+	]
+}

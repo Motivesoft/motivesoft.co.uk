@@ -1,0 +1,700 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  ,
+  "geolookup": 1
+  ,
+  "forecast": 1
+  ,
+  "astronomy": 1
+  ,
+  "conditions": 1
+  ,
+  "almanac": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"country_name":"Spain",
+		"state":"A",
+		"city":"Gran Alacant",
+		"tz_short":"CET",
+		"tz_long":"Europe/Madrid",
+		"lat":"38.22000122",
+		"lon":"-0.51999998",
+		"zip":"00000",
+		"magic":"58",
+		"wmo":"08360",
+		"l":"/q/zmw:00000.58.08360",
+		"requesturl":"global/stations/08360.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/08360.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Alicante / El Altet", "state":"", "country":"Spain", "icao":"LEAL", "lat":"38.28333282", "lon":"-0.55000001" }
+		,{ "city":"Alicante", "state":"", "country":"ES", "icao":"LEAL", "lat":"38.27999878", "lon":"-0.55000001" }
+		,{ "city":"Murcia Airport", "state":"", "country":"ES", "icao":"LELC", "lat":"37.77999878", "lon":"-0.80000001" }
+		,{ "city":"Murcia", "state":"", "country":"SP", "icao":"LERI", "lat":"37.95000076", "lon":"-1.23000002" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"GranAlacant",
+		"city":"Gran Alacant",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"id":"ICOMUNID217",
+		"lat":38.225693,
+		"lon":-0.521782,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"",
+		"city":"Santa Pola",
+		"state":"Comunidad Valenciana",
+		"country":"ES",
+		"id":"IALICANT2",
+		"lat":38.228943,
+		"lon":-0.525793,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Babel",
+		"city":"Alicante",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"id":"ICOMUNID207",
+		"lat":38.338150,
+		"lon":-0.506416,
+		"distance_km":13,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Atzavares Alt",
+		"city":"Elche",
+		"state":"VALENCIAN COMMUNITY",
+		"country":"ES",
+		"id":"IVALENCI63",
+		"lat":38.256992,
+		"lon":-0.667022,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"La Marina, Spain",
+		"city":"La Marina",
+		"state":"VALENCIAN COMMUNITY",
+		"country":"ES",
+		"id":"IVALENCI166",
+		"lat":38.156467,
+		"lon":-0.656862,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Nuevo Altabix",
+		"city":"Elche",
+		"state":"",
+		"country":"ES",
+		"id":"IELCHE5",
+		"lat":38.277885,
+		"lon":-0.671273,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"ELCHE",
+		"city":"ELCHE",
+		"state":"ALICANTE",
+		"country":"ES",
+		"id":"IALICANT19",
+		"lat":38.252399,
+		"lon":-0.702900,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"S. Grossa (C. I. Jesuitas)",
+		"city":"Alacant",
+		"state":"L\u0027ALACANTI",
+		"country":"ES",
+		"id":"IALACANT3",
+		"lat":38.361111,
+		"lon":-0.464444,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Elche-Algor√≥s",
+		"city":"Elche",
+		"state":"",
+		"country":"ES",
+		"id":"IELCHE9",
+		"lat":38.244576,
+		"lon":-0.706520,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Rabassa",
+		"city":"Alacant",
+		"state":"L\u0027ALACANTÌ",
+		"country":"ES",
+		"id":"ILALACAN3",
+		"lat":38.372799,
+		"lon":-0.499062,
+		"distance_km":17,
+		"distance_mi":10
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Gran Alacant, Spain",
+		"city":"Gran Alacant",
+		"state":"A",
+		"state_name":"Spain",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"zip":"00000",
+		"magic":"58",
+		"wmo":"08360",
+		"latitude":"38.22000122",
+		"longitude":"-0.51999998",
+		"elevation":"125.0"
+		},
+		"observation_location": {
+		"full":"GranAlacant, Gran Alacant, COMUNIDAD VALENCIANA",
+		"city":"GranAlacant, Gran Alacant",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"country_iso3166":"ES",
+		"latitude":"38.225693",
+		"longitude":"-0.521782",
+		"elevation":"384 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"ICOMUNID217",
+		"observation_time":"Last Updated on March 18, 8:21 PM CET",
+		"observation_time_rfc822":"Sun, 18 Mar 2018 20:21:57 +0100",
+		"observation_epoch":"1521400917",
+		"local_time_rfc822":"Sun, 18 Mar 2018 20:22:00 +0100",
+		"local_epoch":"1521400920",
+		"local_tz_short":"CET",
+		"local_tz_long":"Europe/Madrid",
+		"local_tz_offset":"+0100",
+		"weather":"Clear",
+		"temperature_string":"56.8 F (13.8 C)",
+		"temp_f":56.8,
+		"temp_c":13.8,
+		"relative_humidity":"22%",
+		"wind_string":"From the WSW at 6.0 MPH Gusting to 7.4 MPH",
+		"wind_dir":"WSW",
+		"wind_degrees":254,
+		"wind_mph":6.0,
+		"wind_gust_mph":"7.4",
+		"wind_kph":9.7,
+		"wind_gust_kph":"11.9",
+		"pressure_mb":"1006",
+		"pressure_in":"29.71",
+		"pressure_trend":"0",
+		"dewpoint_string":"18 F (-8 C)",
+		"dewpoint_f":18,
+		"dewpoint_c":-8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"56.8 F (13.8 C)",
+		"feelslike_f":"56.8",
+		"feelslike_c":"13.8",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/08360.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=ICOMUNID217",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=38.225693,-0.521782",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"7:46 PM CET",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Sunday",
+		"fcttext":"Mainly clear. Lows overnight in the mid 40s.",
+		"fcttext_metric":"Clear. Low 7C.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Sunday Night",
+		"fcttext":"Clear skies. Low near 45F. Winds W at 10 to 15 mph.",
+		"fcttext_metric":"Clear skies. Low 7C. Winds W at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":2,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Mostly cloudy skies. High near 65F. Winds WSW at 10 to 20 mph.",
+		"fcttext_metric":"More clouds than sun. High 18C. Winds WSW at 15 to 30 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Clearing skies after some evening rain. Low 43F. Winds WNW at 10 to 15 mph. Chance of rain 90%.",
+		"fcttext_metric":"Rain early. Decreasing clouds with clear skies late. Low 6C. Winds WNW at 15 to 25 km/h. Chance of rain 90%.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":4,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Tuesday",
+		"fcttext":"Mostly sunny skies. High 59F. Winds NW at 15 to 25 mph.",
+		"fcttext_metric":"Except for a few afternoon clouds, mainly sunny. High around 15C. Winds NW at 25 to 40 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"A few clouds. Low 41F. Winds NNW at 10 to 20 mph.",
+		"fcttext_metric":"Partly cloudy skies. Low around 5C. Winds NNW at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Some clouds in the morning will give way to mainly sunny skies for the afternoon. High 57F. NW winds shifting to ESE at 10 to 15 mph.",
+		"fcttext_metric":"Some clouds in the morning will give way to mainly sunny skies for the afternoon. High 14C. NW winds shifting to ESE at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"A few clouds. Low 41F. Winds WNW at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy skies. Low near 5C. Winds WNW at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1521396000",
+	"pretty":"7:00 PM CET on March 18, 2018",
+	"day":18,
+	"month":3,
+	"year":2018,
+	"yday":76,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Madrid"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"64",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "West",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 17,
+		"dir": "West",
+		"degrees": 0
+		},
+		"avehumidity": 59,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1521482400",
+	"pretty":"7:00 PM CET on March 19, 2018",
+	"day":19,
+	"month":3,
+	"year":2018,
+	"yday":77,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Madrid"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"65",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"43",
+		"celsius":"6"
+		},
+		"conditions":"Mostly Cloudy",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.08,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "WSW",
+		"degrees": 258
+		},
+		"avewind": {
+		"mph": 16,
+		"kph": 26,
+		"dir": "WSW",
+		"degrees": 258
+		},
+		"avehumidity": 50,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1521568800",
+	"pretty":"7:00 PM CET on March 20, 2018",
+	"day":20,
+	"month":3,
+	"year":2018,
+	"yday":78,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Madrid"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"59",
+		"celsius":"15"
+		},
+		"low": {
+		"fahrenheit":"41",
+		"celsius":"5"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "NW",
+		"degrees": 326
+		},
+		"avewind": {
+		"mph": 18,
+		"kph": 29,
+		"dir": "NW",
+		"degrees": 326
+		},
+		"avehumidity": 37,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1521655200",
+	"pretty":"7:00 PM CET on March 21, 2018",
+	"day":21,
+	"month":3,
+	"year":2018,
+	"yday":79,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Madrid"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"41",
+		"celsius":"5"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "E",
+		"degrees": 90
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "E",
+		"degrees": 90
+		},
+		"avehumidity": 42,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+		,	"moon_phase": {
+		"percentIlluminated":"2",
+		"ageOfMoon":"1",
+		"phaseofMoon":"New Moon",
+		"hemisphere":"North",
+		"current_time": {
+		"hour":"20",
+		"minute":"22"
+		},
+		"sunrise": {
+		"hour":"7",
+		"minute":"08"
+		},
+		"sunset": {
+		"hour":"19",
+		"minute":"11"
+		},
+		"moonrise": {
+		"hour":"7",
+		"minute":"53"
+		},
+		"moonset": {
+		"hour":"20",
+		"minute":"16"
+		}
+	},
+	"sun_phase": {
+		"sunrise": {
+		"hour":"7",
+		"minute":"08"
+		},
+		"sunset": {
+		"hour":"19",
+		"minute":"11"
+		}
+	}
+		,"query_zone": "999",
+	"alerts": [
+	]
+		,
+	"almanac": {
+		"airport_code": "LEAL",
+		"temp_high": {
+		"normal": {
+		"F": "65",
+		"C": "18"
+		}
+		,
+		"record": {
+		"F": "75",
+		"C": "23"
+		},
+		"recordyear": "1997"
+		},
+		"temp_low": {
+		"normal": {
+		"F": "46",
+		"C": "7"
+		}
+		,
+		"record": {
+		"F": "42",
+		"C": "5"
+		},
+		"recordyear": "2009"
+		}
+	}
+}

@@ -1,0 +1,931 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  ,
+  "geolookup": 1
+  ,
+  "forecast": 1
+  ,
+  "astronomy": 1
+  ,
+  "conditions": 1
+  ,
+  "almanac": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"country_name":"Spain",
+		"state":"A",
+		"city":"Gran Alacant",
+		"tz_short":"CEST",
+		"tz_long":"Europe/Madrid",
+		"lat":"38.22000122",
+		"lon":"-0.51999998",
+		"zip":"00000",
+		"magic":"58",
+		"wmo":"08360",
+		"l":"/q/zmw:00000.58.08360",
+		"requesturl":"global/stations/08360.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/08360.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Alicante / El Altet", "state":"", "country":"Spain", "icao":"LEAL", "lat":"38.28333282", "lon":"-0.55000001" }
+		,{ "city":"Alicante", "state":"", "country":"ES", "icao":"LEAL", "lat":"38.27999878", "lon":"-0.55000001" }
+		,{ "city":"Murcia Airport", "state":"", "country":"ES", "icao":"LELC", "lat":"37.77999878", "lon":"-0.80000001" }
+		,{ "city":"Murcia", "state":"", "country":"SP", "icao":"LERI", "lat":"37.95000076", "lon":"-1.23000002" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Avinguda D\u0027Escandinàvia",
+		"city":"Santa Pola",
+		"state":"",
+		"country":"SP",
+		"id":"ISANTAPO12",
+		"lat":38.220333,
+		"lon":-0.517284,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"GranAlacant",
+		"city":"Gran Alacant",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"id":"ICOMUNID217",
+		"lat":38.225693,
+		"lon":-0.521782,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"",
+		"city":"Santa Pola",
+		"state":"Comunidad Valenciana",
+		"country":"ES",
+		"id":"IALICANT2",
+		"lat":38.228943,
+		"lon":-0.525793,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Santa Pola",
+		"city":"Gran Alacant",
+		"state":"A",
+		"country":"SP",
+		"id":"IAGRANAL4",
+		"lat":38.233143,
+		"lon":-0.529837,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Santa Pola",
+		"city":"Gran Alacant",
+		"state":"A",
+		"country":"SP",
+		"id":"IAGRANAL3",
+		"lat":38.238834,
+		"lon":-0.528483,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Avinguda del Carabasí",
+		"city":"Puerto Marino",
+		"state":"",
+		"country":"ES",
+		"id":"IPUERTOM3",
+		"lat":38.239040,
+		"lon":-0.533920,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Santa Pola",
+		"city":"Balsares",
+		"state":"A",
+		"country":"SP",
+		"id":"IABALSAR4",
+		"lat":38.236172,
+		"lon":-0.540371,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Santa Pola",
+		"city":"Balsares",
+		"state":"A",
+		"country":"SP",
+		"id":"IABALSAR3",
+		"lat":38.236881,
+		"lon":-0.541850,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Elche",
+		"city":"Valverde Bajo",
+		"state":"A",
+		"country":"SP",
+		"id":"IAVALVER2",
+		"lat":38.225098,
+		"lon":-0.609754,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Barrio San Gabriel",
+		"city":"Alacant",
+		"state":"",
+		"country":"SP",
+		"id":"IALACANT6",
+		"lat":38.327038,
+		"lon":-0.512089,
+		"distance_km":11,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Alicante",
+		"city":"Barrio Benalua",
+		"state":"A",
+		"country":"SP",
+		"id":"IABARRIO2",
+		"lat":38.327793,
+		"lon":-0.517148,
+		"distance_km":11,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Camí de Salades",
+		"city":"Elche",
+		"state":"",
+		"country":"ES",
+		"id":"IELCHE8",
+		"lat":38.292171,
+		"lon":-0.634923,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Babel",
+		"city":"Alicante",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"id":"ICOMUNID207",
+		"lat":38.338150,
+		"lon":-0.506416,
+		"distance_km":13,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Calle José Ramón Pomares",
+		"city":"Alicante",
+		"state":"",
+		"country":"SP",
+		"id":"IALICANT75",
+		"lat":38.338177,
+		"lon":-0.506474,
+		"distance_km":13,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Atzavares Alt",
+		"city":"Elche",
+		"state":"VALENCIAN COMMUNITY",
+		"country":"ES",
+		"id":"IVALENCI63",
+		"lat":38.256992,
+		"lon":-0.667022,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Alicante",
+		"city":"Barrio Benalua",
+		"state":"A",
+		"country":"SP",
+		"id":"IABARRIO5",
+		"lat":38.340973,
+		"lon":-0.505371,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"La Marina, Spain",
+		"city":"La Marina",
+		"state":"VALENCIAN COMMUNITY",
+		"country":"ES",
+		"id":"IVALENCI166",
+		"lat":38.156467,
+		"lon":-0.656862,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Alicante",
+		"city":"Barrio Benalua",
+		"state":"A",
+		"country":"SP",
+		"id":"IABARRIO3",
+		"lat":38.347084,
+		"lon":-0.489688,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Calle Hermano Felicísimo Ruiz",
+		"city":"Alacant",
+		"state":"",
+		"country":"SP",
+		"id":"IALACANT12",
+		"lat":38.351570,
+		"lon":-0.508378,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Nuevo Altabix",
+		"city":"Elche",
+		"state":"",
+		"country":"ES",
+		"id":"IELCHE5",
+		"lat":38.277885,
+		"lon":-0.671273,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Carrer Orihuela",
+		"city":"Elche",
+		"state":"",
+		"country":"SP",
+		"id":"IELCHE2",
+		"lat":38.269287,
+		"lon":-0.678184,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Alicante",
+		"city":"Alicante",
+		"state":"A",
+		"country":"SP",
+		"id":"IAALICAN3",
+		"lat":38.351948,
+		"lon":-0.482226,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Calle Aspe",
+		"city":"Alacant",
+		"state":"",
+		"country":"SP",
+		"id":"IALACANT10",
+		"lat":38.355598,
+		"lon":-0.483551,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Alicante",
+		"city":"Alicante",
+		"state":"A",
+		"country":"SP",
+		"id":"IAALICAN2",
+		"lat":38.354774,
+		"lon":-0.471626,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"San Fulgencio",
+		"city":"Guardamar Del Segura",
+		"state":"A",
+		"country":"SP",
+		"id":"IAGUARDA2",
+		"lat":38.139320,
+		"lon":-0.666243,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Plaça Major del Raval",
+		"city":"Elche",
+		"state":"",
+		"country":"SP",
+		"id":"IELCHE10",
+		"lat":38.260616,
+		"lon":-0.698631,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Carrer Cuesta de Bonus",
+		"city":"Elche",
+		"state":"",
+		"country":"SP",
+		"id":"IELCHE3",
+		"lat":38.262051,
+		"lon":-0.699695,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"ELCHE",
+		"city":"ELCHE",
+		"state":"ALICANTE",
+		"country":"ES",
+		"id":"IALICANT19",
+		"lat":38.252399,
+		"lon":-0.702900,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"S. Grossa (C. I. Jesuitas)",
+		"city":"Alacant",
+		"state":"L\u0027ALACANTI",
+		"country":"ES",
+		"id":"IALACANT3",
+		"lat":38.361111,
+		"lon":-0.464444,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Elche-Algorós",
+		"city":"Elche",
+		"state":"",
+		"country":"ES",
+		"id":"IELCHE9",
+		"lat":38.244576,
+		"lon":-0.706520,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Rabassa",
+		"city":"Alacant",
+		"state":"L\u0027ALACANT�",
+		"country":"ES",
+		"id":"ILALACAN3",
+		"lat":38.372799,
+		"lon":-0.499062,
+		"distance_km":17,
+		"distance_mi":10
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Gran Alacant, Spain",
+		"city":"Gran Alacant",
+		"state":"A",
+		"state_name":"Spain",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"zip":"00000",
+		"magic":"58",
+		"wmo":"08360",
+		"latitude":"38.22000122",
+		"longitude":"-0.51999998",
+		"elevation":"125.0"
+		},
+		"observation_location": {
+		"full":"GranAlacant, Gran Alacant, COMUNIDAD VALENCIANA",
+		"city":"GranAlacant, Gran Alacant",
+		"state":"COMUNIDAD VALENCIANA",
+		"country":"ES",
+		"country_iso3166":"ES",
+		"latitude":"38.225693",
+		"longitude":"-0.521782",
+		"elevation":"384 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"ICOMUNID217",
+		"observation_time":"Last Updated on March 25, 6:29 PM CEST",
+		"observation_time_rfc822":"Sun, 25 Mar 2018 18:29:44 +0200",
+		"observation_epoch":"1521995384",
+		"local_time_rfc822":"Sun, 25 Mar 2018 18:29:57 +0200",
+		"local_epoch":"1521995397",
+		"local_tz_short":"CEST",
+		"local_tz_long":"Europe/Madrid",
+		"local_tz_offset":"+0200",
+		"weather":"Clear",
+		"temperature_string":"58.5 F (14.7 C)",
+		"temp_f":58.5,
+		"temp_c":14.7,
+		"relative_humidity":"22%",
+		"wind_string":"From the East at 5.8 MPH Gusting to 7.4 MPH",
+		"wind_dir":"East",
+		"wind_degrees":91,
+		"wind_mph":5.8,
+		"wind_gust_mph":"7.4",
+		"wind_kph":9.3,
+		"wind_gust_kph":"11.9",
+		"pressure_mb":"1009",
+		"pressure_in":"29.80",
+		"pressure_trend":"0",
+		"dewpoint_string":"20 F (-7 C)",
+		"dewpoint_f":20,
+		"dewpoint_c":-7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"58.5 F (14.7 C)",
+		"feelslike_f":"58.5",
+		"feelslike_c":"14.7",
+		"visibility_mi":"N/A",
+		"visibility_km":"N/A",
+		"solarradiation":"139",
+		"UV":"1.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/08360.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=ICOMUNID217",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=38.225693,-0.521782",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"5:59 PM CEST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Sunday",
+		"fcttext":"Light rain early. Lows overnight in the mid 40s.",
+		"fcttext_metric":"Light rain early. Low 8C.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Sunday Night",
+		"fcttext":"Becoming partly cloudy after some evening light rain. Low 46F. Winds NW at 10 to 15 mph. Chance of rain 70%.",
+		"fcttext_metric":"Becoming partly cloudy after some evening light rain. Low 8C. Winds NW at 15 to 25 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":2,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Monday",
+		"fcttext":"Generally sunny despite a few afternoon clouds. High 64F. NW winds shifting to SE at 10 to 15 mph.",
+		"fcttext_metric":"Generally sunny despite a few afternoon clouds. High 18C. NW winds shifting to SE at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Some clouds early will give way to generally clear conditions overnight. Low 47F. Winds NW at 10 to 15 mph.",
+		"fcttext_metric":"Some clouds early will give way to generally clear conditions overnight. Low 9C. Winds NW at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Tuesday",
+		"fcttext":"Mainly sunny. High 66F. NNW winds shifting to SSE at 10 to 15 mph.",
+		"fcttext_metric":"Mainly sunny. High 19C. Winds SSE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Clear. Low 54F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"A mostly clear sky. Low 12C. Winds WSW at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Wednesday",
+		"fcttext":"Sunny skies. High 73F. Winds SW at 10 to 20 mph.",
+		"fcttext_metric":"Sunny skies. High 23C. Winds SW at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Clear to partly cloudy. Low 53F. Winds W at 10 to 20 mph.",
+		"fcttext_metric":"A few clouds. Low 12C. Winds W at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1521997200",
+	"pretty":"7:00 PM CEST on March 25, 2018",
+	"day":25,
+	"month":3,
+	"year":2018,
+	"yday":83,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"65",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.08,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.08,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 12,
+		"dir": "WNW",
+		"degrees": 284
+		},
+		"avehumidity": 72,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1522083600",
+	"pretty":"7:00 PM CEST on March 26, 2018",
+	"day":26,
+	"month":3,
+	"year":2018,
+	"yday":84,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"64",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "NW",
+		"degrees": 324
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NW",
+		"degrees": 324
+		},
+		"avehumidity": 51,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1522170000",
+	"pretty":"7:00 PM CEST on March 27, 2018",
+	"day":27,
+	"month":3,
+	"year":2018,
+	"yday":85,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SSE",
+		"degrees": 159
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 159
+		},
+		"avehumidity": 46,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1522256400",
+	"pretty":"7:00 PM CEST on March 28, 2018",
+	"day":28,
+	"month":3,
+	"year":2018,
+	"yday":86,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"CEST",
+	"tz_long":"Europe/Madrid"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"73",
+		"celsius":"23"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SW",
+		"degrees": 232
+		},
+		"avewind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 232
+		},
+		"avehumidity": 51,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+		,	"moon_phase": {
+		"percentIlluminated":"62",
+		"ageOfMoon":"8",
+		"phaseofMoon":"First Quarter",
+		"hemisphere":"North",
+		"current_time": {
+		"hour":"18",
+		"minute":"29"
+		},
+		"sunrise": {
+		"hour":"7",
+		"minute":"58"
+		},
+		"sunset": {
+		"hour":"20",
+		"minute":"18"
+		},
+		"moonrise": {
+		"hour":"13",
+		"minute":"52"
+		},
+		"moonset": {
+		"hour":"3",
+		"minute":"40"
+		}
+	},
+	"sun_phase": {
+		"sunrise": {
+		"hour":"7",
+		"minute":"58"
+		},
+		"sunset": {
+		"hour":"20",
+		"minute":"18"
+		}
+	}
+		,"query_zone": "999",
+	"alerts": [
+	]
+		,
+	"almanac": {
+		"airport_code": "LEAL",
+		"temp_high": {
+		"normal": {
+		"F": "65",
+		"C": "18"
+		}
+		,
+		"record": {
+		"F": "81",
+		"C": "27"
+		},
+		"recordyear": "2016"
+		},
+		"temp_low": {
+		"normal": {
+		"F": "48",
+		"C": "8"
+		}
+		,
+		"record": {
+		"F": "41",
+		"C": "5"
+		},
+		"recordyear": "2017"
+		}
+	}
+}
