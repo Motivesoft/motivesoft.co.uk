@@ -14,18 +14,18 @@ body {
 
 header, 
 footer {
-    padding: 20px 20px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
+  padding: 20px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
 
 #logoname {
-    padding-left: 10px;
-    font-size: x-large;
-    text-transform: lowercase;
+  padding-left: 10px;
+  font-size: x-large;
+  text-transform: lowercase;
 }
 
 footer  {
-    text-align: right;
+  text-align: right;
 }
