@@ -1,17 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Motivesoft home page</title>
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <title>Motivesoft home page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name='description' content='Motivesoft home page'>
 </head>
+
 <body>
-<h1><a href="/"><img src="/favicon-32x32.png" /></a></h1>
-<p>Well here it is...now what?</p>
+    <header>
+        <a id="logo"></a>
+        <script>
+            size = 48;
+            h = size;
+            w = size;
+            r=Math.min(w, h) / 2;
+            r2=r/2;
+            cy = h/2;
+            cx = w/2;
+            text = "<g><title>Layer 1</title><circle id='svg_1' r='"+r+"' fill='#DAA520' cy='"+cy+"' cx='"+cx+"'/></g><g><title>Layer 2</title><circle id='svg_2' r='"+r2+"' fill='#800000' cy='"+(h-r2)+"' cx='"+(w-r2)+"'/></g>";
+            text = "<svg width='"+w+"' height='"+h+"'http://www.w3.org/2000/svg' xmlns='' xmlns:svg='http://www.w3.org/2000/svg'>"+text+"</svg>";
+            document.getElementById("logo").innerHTML = text;
+        </script>
+        <a id="logoname">Motivesoft</a>
+    </header>
+
+    <main>
+        <p>Well here it is...now what? More than 25 years in the making and still too busy on the day job to make more of this sideline</p>
+        <h1>Projects</h1>
+        <p>I have created and support a couple of websites to support my wife's graphics art and design:</p>
+        <ul>
+            <li><a href="https://zendoodlesbycatherine.com">Zen Doodles by Catherine</a></li>
+            <li><a href="https://condaluna.com">@condaluna</a></li>
+        </ul>
+        <p>I maintain our legacy sites on GitHub for historical interest, for example:</p>
+        <ul>
+            <li><a href="https://motivesoft.github.io/cyberzoo">Cyberzoo</a></li>
+        </ul>
+        <p>I have a small collection of projects on my Motivesoft <a href="https://github.com/Motivesoft">GitHub</a> that I will work on very slowly and may never take very far.</p>
+    </main>
+
+    <footer>
+        <a id="footer">
+            <noscript>Copyright &copy; 2020 Ian Brown.</noscript>
+        </a>
+        <script>
+            originYear = "2020";
+            d = new Date();
+            y = d.getFullYear();
+            if( y != originYear )
+            { 
+                y = originYear.concat("-").concat(y); 
+            }
+            document.getElementById("footer").innerHTML = "Copyright &copy; " + y + " Ian Brown";
+        </script>
+    </footer>
 </body>
 </html>
