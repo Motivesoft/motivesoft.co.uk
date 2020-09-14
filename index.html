@@ -17,20 +17,24 @@
 
 <body>
     <header>
-        <a id="logo"></a>
-        <script>
-            size = 48;
-            h = size;
-            w = size;
-            r=Math.min(w, h) / 2;
-            r2=r/2;
-            cy = h/2;
-            cx = w/2;
-            text = "<g><title>Layer 1</title><circle id='svg_1' r='"+r+"' fill='#DAA520' cy='"+cy+"' cx='"+cx+"'/></g><g><title>Layer 2</title><circle id='svg_2' r='"+r2+"' fill='#800000' cy='"+(h-r2)+"' cx='"+(w-r2)+"'/></g>";
-            text = "<svg width='"+w+"' height='"+h+"'http://www.w3.org/2000/svg' xmlns='' xmlns:svg='http://www.w3.org/2000/svg'>"+text+"</svg>";
-            document.getElementById("logo").innerHTML = text;
-        </script>
-        <a id="logoname">Motivesoft</a>
+        <div class="companyheader">
+            <a id="logo"></a>
+            <script>
+                size = 96;
+                h = size;
+                w = size;
+                r=Math.min(w, h) / 2;
+                r2=r/2;
+                cy = h/2;
+                cx = w/2;
+                text = "<g><title>Layer 1</title><circle id='svg_1' r='"+r+"' fill='#DAA520' cy='"+cy+"' cx='"+cx+"'/></g><g><title>Layer 2</title><circle id='svg_2' r='"+r2+"' fill='#800000' cy='"+(h-r2)+"' cx='"+(w-r2)+"'/></g>";
+                text = "<svg width='"+w+"' height='"+h+"'http://www.w3.org/2000/svg' xmlns='' xmlns:svg='http://www.w3.org/2000/svg'>"+text+"</svg>";
+                document.getElementById("logo").innerHTML = text;
+            </script>
+            <ul>
+                <li>Motivesoft</li>
+            </ul>
+        </div>
     </header>
 
     <main>
