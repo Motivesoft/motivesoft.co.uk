@@ -52,3 +52,12 @@ footer {
 footer  {
   text-align: right;
 }
+
+.button img {
+  background-color: black;
+}
+
+.button a :hover,
+.button a :focus {
+  background-color: gray;
+}
