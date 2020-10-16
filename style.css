@@ -34,7 +34,6 @@ body {
 .companyheader li {
   line-height: 48px;
   list-style: none;
-  text-transform: lowercase;
 }
 
 main {
