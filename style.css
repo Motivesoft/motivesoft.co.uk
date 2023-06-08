@@ -41,6 +41,10 @@ main {
   padding: 20px;
 }
 
+li {
+  padding-top: 10px;
+}
+
 li a {
   font-weight: bold;
 }
